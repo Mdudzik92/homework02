@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matt Dudzik's Portfolio</title>
+<!-- Connecting the page to the CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  </head>
+<body>
+
+      <!-- Start Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <span class="navbar-brand mb-1 h1">Matt Dudzik</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <!-- <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li> -->
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End Nav -->
+
+<div class="container">
+  <div style="text-align:left">
+    <h1>Contact</h1>
+    <p>Feel free to send an email with any questions or concerns below:</p>
+  </div>
+
+  <hr height=10px>
+  
+  <div class="row">
+    <div class="column">
+      <!-- <form action="/action_page.php"> -->
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Type name here">
+        <label for="lname">Email address</label>
+        <input type="text" id="lname" name="lastname" placeholder="youremail@gmail.com">
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
